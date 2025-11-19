@@ -116,7 +116,7 @@ if MODEL_S3_URI:
     model_path = download_model_from_s3(MODEL_S3_URI)
 else:
     print("📌 Loading model from LOCAL path")
-    model_path = "V:/projects/Alzheimers_classification/model/cnn_model.h5"  # your original path
+    model_path = "V:/projects/AlzheimersDiseaseClassification/model/cnn_model.h5"  # your original path
 
 
 # -------------------------------------------------------
