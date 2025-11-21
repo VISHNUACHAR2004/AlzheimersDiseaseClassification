@@ -125,6 +125,12 @@ uvicorn app:app --reload
 **http://127.0.0.1:8000**
 
 ---
+## Output Snapshots
+
+<div style="display: flex; height: 50;">
+  <img src="images/op2.png" style="height: 50%; width: auto;">
+  <img src="images/op1.png" style="height: 50%; width: auto;">
+</div>
 
 
 
