@@ -117,7 +117,7 @@ if MODEL_S3_URI:
 else:
     print("📌 Loading model from LOCAL path")
     # model_path = "cnn_model.h5"  # your original path
-    model_path="deployment/cnn_model.h5"
+    model_path="cnn_model.h5"
 
 # -------------------------------------------------------
 #  Load the trained model (same logic as before)
@@ -188,5 +188,5 @@ async def predict(file: UploadFile = File(...)):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
-#command to run: uvicorn deployment.app:app --reload
+#command to run: # uvicorn app:app --reload
 
