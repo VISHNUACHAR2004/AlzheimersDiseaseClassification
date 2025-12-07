@@ -117,7 +117,7 @@ if MODEL_S3_URI:
 else:
     print("📌 Loading model from LOCAL path")
     # model_path = "cnn_model.h5"  # your original path
-    model_path="V:/projects/AlzheimersDiseaseClassification/deployment/cnn_model.h5"
+    model_path="deployment/cnn_model.h5"
 
 # -------------------------------------------------------
 #  Load the trained model (same logic as before)
